@@ -1,0 +1,36 @@
+const mongoose = require("mongoose");
+require("dotenv");
+
+const ActorsSchema = mongoose.Schema({
+  name: {
+    type: String,
+    required: false,
+  },
+
+  age: {
+    type: Number,
+    required: true,
+  },
+});
+
+const MoviesSchema = mongoose.Schema({
+  title: {
+    type: String,
+    required: true,
+  },
+  genere: {
+    type: String,
+    required: true,
+  },
+  year: {
+    type: Number,
+    required: true,
+  },
+  actors: [ActorsSchema],
+});
+
+mongoose.model(
+  process.env.MOVIES_MODEL,
+  MoviesSchema,
+  process.env.MOVIES_COLLECTION
+);
