@@ -17,7 +17,7 @@ router
   .route("/movies/:movieId/actors")
   .get(actorsController.getAll)
   .post(actorsController.addOne)
-  .delete(actorsController.deleteOne);
+  .delete(actorsController.deleteActor);
 
 router.route("/movies/:movieId/actors/:actorId").get(actorsController.getOne);
 

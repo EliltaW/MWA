@@ -1,0 +1,122 @@
+[{
+	"_id": {
+		"$oid": "62943bda6328ca98b46d67dd"
+	},
+	"title": "Rescude Ruby",
+	"genere": "Drama, Family",
+	"year": 2022,
+	"actors": [
+		{
+			"name": "Grant Gustin",
+			"age": 32,
+			"_id": {
+				"$oid": "62943bda6328ca98b46d67de"
+			}
+		},
+		{
+			"name": "Scott Wolf",
+			"age": 53,
+			"_id": {
+				"$oid": "62943bda6328ca98b46d67df"
+			}
+		}
+	],
+	"__v": 1
+},
+{
+	"_id": {
+		"$oid": "629446760aa428ce7b67374e"
+	},
+	"title": "Respect",
+	"genere": "Drama, History, Music",
+	"year": 2021,
+	"actors": [
+		{
+			"name": "Jennifer Hudson",
+			"age": 41,
+			"_id": {
+				"$oid": "629446760aa428ce7b67374f"
+			}
+		},
+		{
+			"name": "Forest Whitaker",
+			"age": 61,
+			"_id": {
+				"$oid": "629446760aa428ce7b673750"
+			}
+		},
+		{
+			"name": "Marlon Wayans",
+			"age": 50,
+			"_id": {
+				"$oid": "629446760aa428ce7b673751"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6294471a0aa428ce7b673754"
+	},
+	"title": "The Pursuit of Happyness",
+	"genere": "Drama",
+	"year": 2006,
+	"actors": [
+		{
+			"name": "Will Smith",
+			"age": 54,
+			"_id": {
+				"$oid": "6294471a0aa428ce7b673755"
+			}
+		},
+		{
+			"name": "Jaden Smith",
+			"age": 24,
+			"_id": {
+				"$oid": "6294471a0aa428ce7b673756"
+			}
+		},
+		{
+			"name": "Thandiwe Newton",
+			"age": 50,
+			"_id": {
+				"$oid": "6294471a0aa428ce7b673757"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "629447970aa428ce7b67375a"
+	},
+	"title": "Hidden Figures",
+	"genere": "Drama, History",
+	"year": 2016,
+	"actors": [
+		{
+			"name": "Oktavia Spencer",
+			"age": 52,
+			"_id": {
+				"$oid": "629447970aa428ce7b67375b"
+			}
+		},
+		{
+			"name": "Taraji P.Henson",
+			"age": 51,
+			"_id": {
+				"$oid": "629447970aa428ce7b67375c"
+			}
+		},
+		{
+			"name": "Janelle Monae",
+			"age": 36,
+			"_id": {
+				"$oid": "629447970aa428ce7b67375d"
+			}
+		}
+	],
+	"__v": 0
+}]
+

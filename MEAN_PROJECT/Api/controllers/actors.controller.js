@@ -66,7 +66,7 @@ const _addActor = function (req, res, movie) {
   });
 };
 
-const _deleteActor = function (req, res, movie) {
+const deleteActor = function (req, res, movie) {
   movie.actors = { name: "NoName" };
   movie.save(function (err, updatedMovie) {
     const response = {
@@ -88,5 +88,5 @@ module.exports = {
   getAll,
   getOne,
   addOne,
-  deleteOne,
+  deleteActor,
 };
